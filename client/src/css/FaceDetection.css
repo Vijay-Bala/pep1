@@ -1,0 +1,57 @@
+/* FaceDetection.css */
+.header-title {
+    color: white;
+    padding: 11px;
+    font-size: 44px;
+  }
+
+  .face-detection-container {
+    max-height: 5%; /* Adjust the maximum width to fit within the main container */
+    margin: auto; /* Center align the component */
+  }
+  
+  
+  .card {
+    border-radius: 20px;
+    padding: 0px;
+    background-color: rgba(211, 211, 211, 0.5);
+    margin: 0px 10px 10px 10px;
+    min-height: 400px;
+  }
+  
+  .card-header {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #0b4c61;
+    color: white;
+    padding: 10px;
+  }
+  
+  .card form {
+    padding: 20px;
+  }
+  
+  .card table {
+    background-color: white;
+  }
+  
+  .card input[type='text'],
+  .card input[type='number'] {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    width: 232px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .text-muted {
+    padding: 25px;
+  }
+  
+
+.float-end {
+    float: right; /* Align the "Add New User" button to the right */
+  }

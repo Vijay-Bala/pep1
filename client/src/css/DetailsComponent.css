@@ -1,0 +1,26 @@
+.details-container {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif; /* Add Google Font 'Open Sans' */
+  }
+  
+  .detail-heading {
+    font-size: 2rem; /* Increased font size */
+    margin-bottom: 10px;
+  }
+  
+  .detail-item {
+    margin-bottom: 8px;
+    font-size: 1.2rem; /* Increased font size */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .details-container {
+      max-width: 100%;
+    }
+  }
+  

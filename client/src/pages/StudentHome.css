@@ -1,0 +1,134 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  
+}
+
+.request{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container{
+  height: 100vh;
+  width: 100vw;
+}
+.request-row{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* Request  componenct styles*/
+
+.main-Request {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.request-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: auto; /* Add scrollbar for vertical overflow */
+  max-height: 800px; /* Set a max height for the container, adjust as needed */
+}
+
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.request-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.request-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.user-details {
+  width:70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align user-details items vertically center */
+}
+
+.user-details h1 {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .request-container {
+    padding: 10px;
+    max-height: none;
+  }
+  
+  .request-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  button {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,71 @@
+.app-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+  }
+  
+  .content {
+    margin-top: 1rem;
+  }
+  
+  .main-Request {
+    padding: 1rem;
+  }
+  
+  .request, .individual-Request {
+    margin: 1rem 0;
+  }
+  
+  .request-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .request-row h1 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .request-row button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .request-row button:hover {
+    background-color: #0056b3;
+  }
+  
+  .individual-Request h1 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+  
+  .individual-Request button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .individual-Request button:hover {
+    background-color: #0056b3;
+  }
+  

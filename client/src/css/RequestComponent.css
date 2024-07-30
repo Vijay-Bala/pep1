@@ -1,0 +1,121 @@
+.main-Request {
+    font-family:'Times New Roman', Times, serif ;
+    width: 90vw;
+  }
+  
+  .request-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .request-list{
+    width: 90%;
+  }
+  
+  .request-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-title{
+    align-items: center;
+    font-size: 5vh;
+  }
+
+  .user-name{
+    font-size: 4vh;
+  }
+
+  .user-details h1{
+    font-size: 3vh;
+  }
+
+  .request-row {
+    width: 90%;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-row button, button {
+    background-color: blue;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .request-row button:hover, .individual-Request button:hover {
+    background-color: #002bc5;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px black;
+  }
+
+  .request-row button:active, .individual-Request button:active{
+    transform: translateY(0.5vh);
+  }
+  
+  .individual-Request {
+    width: 60vw;
+    height: 60%;
+    background-color: #ffffff;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    padding: 5vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInScale 0.3s ease;
+  }
+
+  .span{
+    display: flex;
+    width: 70%;
+    margin-top: 3vh;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  
+  /* Media queries for responsiveness */
+  
+  @media only screen and (max-width: 768px) {
+    .request-container {
+      width: 100%;
+    }
+  
+    .request-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .request-row button {
+      margin-top: 10px;
+    }
+  
+    .individual-Request {
+      width: 80%;
+      height: 60%;
+      max-width: 100%;
+    }
+
+  }
+  

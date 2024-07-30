@@ -1,0 +1,26 @@
+/* Make the navbar background black */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .student-main {
+    height: 100vh; /* Make outer div cover the entire page */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .student-main .content-student {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa; /* Bootstrap light background */
+  }
+  
